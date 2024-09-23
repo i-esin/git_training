@@ -1,1 +1,1 @@
-print("Ivan Esin \n1999-04-03")
+print("Ivan Esin \nRussia")
