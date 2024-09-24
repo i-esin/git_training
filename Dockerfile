@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # Run Streamlit when the container starts
-CMD ["streamlit", "run", "app.py"]  # Replace 'your_streamlit_app.py' with your Streamlit script
+CMD ["streamlit", "run", "/app/your_streamlit_app.py"]  # Replace 'your_streamlit_app.py' with your Streamlit script
