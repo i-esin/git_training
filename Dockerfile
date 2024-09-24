@@ -9,6 +9,8 @@ WORKDIR /app
 # Clone the repository
 RUN git clone https://github.com/i-esin/git_training.git .
 
+# Install libraries
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Expose the port that Streamlit uses
