@@ -1,2 +1,2 @@
-print("Ivan Esin \nRussia")
-print("Ivan Esin\1999-04-03")
+def my_name():
+    return "Ivan Esin\n1999-04-03"
